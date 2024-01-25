@@ -54,10 +54,10 @@ def extract_features(model, dataloader):
 
 
 # Specify the paths to your CSV files and image folders
-train_csv_file = "/Users/yuanweiyun/Desktop/EE6222/output_train.csv"
-valid_csv_file = "/Users/yuanweiyun/Desktop/EE6222/output_valid.csv"
-train_data_folder = "/Users/yuanweiyun/Desktop/EE6222/train_data"
-valid_data_folder = "/Users/yuanweiyun/Desktop/EE6222/valid_new"
+train_csv_file = "PATH OF TRAIN CSV DATA"
+valid_csv_file = "PATH OF VALIDATION CSV DATA"
+train_data_folder = "PATH OF TRAINING DATA FOLDER"
+valid_data_folder = "PATH OF VALIDATION DATA FOLDER"
 
 # Define the transformations you want to apply
 transform = transforms.Compose([
