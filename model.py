@@ -47,8 +47,8 @@ class Action(Dataset):
         return image, label
 
 train_dataset = Action(
-    annotations_file="/Users/yuanweiyun/Desktop/EE6222/output_train.csv",
-    train_dir="/Users/yuanweiyun/Desktop/EE6222/train_data",
+    annotations_file="PATH OF CSV FILE",
+    train_dir="PATH OF TRAINING DATA",
 
 )
 
