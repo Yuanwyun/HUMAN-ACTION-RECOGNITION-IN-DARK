@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
   
 # Load the image 
-image = cv2.imread('/Users/yuanweiyun/Desktop/EE6222/valid_data/2/202_0.png') 
+image = cv2.imread('PATH') 
   
 #Plot the original image 
 plt.subplot(1, 2, 1) 
